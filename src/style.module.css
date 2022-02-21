@@ -1,0 +1,28 @@
+* {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 49, 25);
+    text-decoration: none;
+    padding: 30px;
+}
+
+a {
+    color: brown;
+}
+
+hr {
+    padding: 0px;
+}
+
+ul {
+    list-style: none
+}
+
+li::before {
+    content: "•";
+    color: red;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em
+}
+.active{color: blue;}
